@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="1" name="Create New Post" skipped="0" tests="2" time="0.05" timestamp="2024-05-13 09:16:38"><testcase name="As a admin I can create a new post with valid inputs"/><testcase name="As a admin I cannot create a new post with empty inputs"><failure message="1 expectation failed.&#10;Expected status code &lt;400&gt; but was &lt;201&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;400&gt; but was &lt;201&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;400&gt; but was &lt;201&gt;.
+
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+starter.user.CreateNewPost.lambda$receiveStatusCode400$3(CreateNewPost.java:55)
+net.serenitybdd.rest.SerenityRest.restAssuredThat(SerenityRest.java:626)
+starter.user.CreateNewPost.receiveStatusCode400(CreateNewPost.java:55)
+starter.stepdefinitions.CreateNewPostSteps.receiveStatusCode400(CreateNewPostSteps.java:41)
+</system-err></testcase></testsuite>

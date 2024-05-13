@@ -1,0 +1,11 @@
+starter/user/CreateNewPost.class
+starter/stepdefinitions/ChangePostByIdSteps.class
+starter/CucumberTestSuite.class
+starter/stepdefinitions/GetPostByIdSteps.class
+starter/user/ChangePostById.class
+starter/stepdefinitions/DeletePostByIdSteps.class
+starter/user/GetAllPost.class
+starter/stepdefinitions/CreateNewPostSteps.class
+starter/user/DeletePostById.class
+starter/user/GetPostById.class
+starter/stepdefinitions/GetAllPostSteps.class
