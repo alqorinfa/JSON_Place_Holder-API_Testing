@@ -32,4 +32,7 @@ public class GetPostById {
         restAssuredThat(response -> response.body("'title'", equalTo("sunt aut facere repellat provident occaecati excepturi optio reprehenderit")));
         restAssuredThat(response -> response.body("'body'", equalTo("quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto")));
     }
+
+    @Step("I receive status code 404")
+    public void receiveStatusCode404() {restAssuredThat(response -> response.statusCode(404));}
 }

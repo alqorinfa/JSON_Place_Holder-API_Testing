@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="1" name="Change Post by ID" skipped="0" tests="2" time="0.79" timestamp="2024-05-13 09:16:26"><testcase name="As a admin I can change post by ID with valid inputs"/><testcase name="As a admin I cannot change post by ID with empty inputs"><failure message="1 expectation failed.&#10;Expected status code &lt;400&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="1" name="Change Post by ID" skipped="0" tests="2" time="0.85" timestamp="2024-05-15 05:54:37"><testcase name="As a admin I can change post by ID with valid inputs"/><testcase name="As a admin I cannot change post by ID with empty inputs"><failure message="1 expectation failed.&#10;Expected status code &lt;400&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
 Expected status code &lt;400&gt; but was &lt;200&gt;.
 </failure><system-err>1 expectation failed.
 Expected status code &lt;400&gt; but was &lt;200&gt;.

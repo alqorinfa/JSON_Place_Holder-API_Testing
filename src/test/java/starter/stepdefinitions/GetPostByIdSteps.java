@@ -20,11 +20,20 @@ public class GetPostByIdSteps {
         getPostById.sendGetPostByIdRequest(1);
     }
 
+    @When("I send request to get post by unexisted id")
+    public void sendGetPostByUnexistedIdRequest() {
+        getPostById.sendGetPostByIdRequest(400);
+    }
+
     @And("I receive valid data of post data by ID")
     public void receiveValidPostDataByID() {
         getPostById.receiveValidPostData();
     }
 
+    @Then("I receive status code error 404")
+    public void receiveStatusCode404() {
+        getPostById.receiveStatusCode404();
+    }
     }
 
 

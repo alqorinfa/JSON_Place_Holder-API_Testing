@@ -1,16 +1,22 @@
 -------------------------------------------------------------------------------
 Test set: starter.CucumberTestSuite
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 17.491 s <<< FAILURE! - in starter.CucumberTestSuite
-As a admin I cannot change post by ID with empty inputs(Change Post by ID)  Time elapsed: 2.215 s  <<< FAILURE!
+Tests run: 8, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 17.608 s <<< FAILURE! - in starter.CucumberTestSuite
+As a admin I cannot change post by ID with empty inputs(Change Post by ID)  Time elapsed: 1.519 s  <<< FAILURE!
 java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <400> but was <200>.
 
 
-As a admin I cannot create a new post with empty inputs(Create New Post)  Time elapsed: 0.718 s  <<< FAILURE!
+As a admin I cannot create a new post with empty inputs(Create New Post)  Time elapsed: 1.08 s  <<< FAILURE!
 java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <400> but was <201>.
+
+
+As a admin I want to get post by unexisted ID(Get post by ID)  Time elapsed: 1.005 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <404>.
 
 
